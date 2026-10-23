@@ -9,6 +9,7 @@ export interface Product {
   category: string;
   gender: string;
   image: string;
+  images?: string[];
   isNew: boolean;
 }
 
@@ -23,7 +24,13 @@ export interface Product {
     reviews: 128,
     category: "Shirts",
     gender: "Women",
-    image: "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/1-front.jpg",
+    images: [
+      "/images/products/new/1-front.jpg",
+      "/images/products/new/1-back.jpg",
+      "/images/products/new/1-side.jpg",
+      "/images/products/new/1-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -36,7 +43,13 @@ export interface Product {
     reviews: 84,
     category: "Shirts",
     gender: "Men",
-    image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/2-front.jpg",
+    images: [
+      "/images/products/new/2-front.jpg",
+      "/images/products/new/2-back.jpg",
+      "/images/products/new/2-side.jpg",
+      "/images/products/new/2-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -49,7 +62,13 @@ export interface Product {
     reviews: 210,
     category: "Denim",
     gender: "Women",
-    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/3-front.jpg",
+    images: [
+      "/images/products/new/3-front.jpg",
+      "/images/products/new/3-back.jpg",
+      "/images/products/new/3-side.jpg",
+      "/images/products/new/3-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -62,7 +81,13 @@ export interface Product {
     reviews: 95,
     category: "Knitwear",
     gender: "Women",
-    image: "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/4-front.jpg",
+    images: [
+      "/images/products/new/4-front.jpg",
+      "/images/products/new/4-back.jpg",
+      "/images/products/new/4-side.jpg",
+      "/images/products/new/4-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -75,7 +100,13 @@ export interface Product {
     reviews: 320,
     category: "T-Shirts",
     gender: "Men",
-    image: "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/5-front.jpg",
+    images: [
+      "/images/products/new/5-front.jpg",
+      "/images/products/new/5-back.jpg",
+      "/images/products/new/5-side.jpg",
+      "/images/products/new/5-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -88,7 +119,13 @@ export interface Product {
     reviews: 175,
     category: "Footwear",
     gender: "Men",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/6-front.jpg",
+    images: [
+      "/images/products/new/6-front.jpg",
+      "/images/products/new/6-back.jpg",
+      "/images/products/new/6-side.jpg",
+      "/images/products/new/6-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -101,7 +138,13 @@ export interface Product {
     reviews: 62,
     category: "Jackets",
     gender: "Men",
-    image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/7-front.jpg",
+    images: [
+      "/images/products/new/7-front.jpg",
+      "/images/products/new/7-back.jpg",
+      "/images/products/new/7-side.jpg",
+      "/images/products/new/7-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -114,7 +157,13 @@ export interface Product {
     reviews: 143,
     category: "Trousers",
     gender: "Women",
-    image: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/8-front.jpg",
+    images: [
+      "/images/products/new/8-front.jpg",
+      "/images/products/new/8-back.jpg",
+      "/images/products/new/8-side.jpg",
+      "/images/products/new/8-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -127,7 +176,13 @@ export interface Product {
     reviews: 88,
     category: "Knitwear",
     gender: "Women",
-    image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/9-front.jpg",
+    images: [
+      "/images/products/new/9-front.jpg",
+      "/images/products/new/9-back.jpg",
+      "/images/products/new/9-side.jpg",
+      "/images/products/new/9-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -140,7 +195,13 @@ export interface Product {
     reviews: 198,
     category: "Trousers",
     gender: "Men",
-    image: "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/10-front.jpg",
+    images: [
+      "/images/products/new/10-front.jpg",
+      "/images/products/new/10-back.jpg",
+      "/images/products/new/10-side.jpg",
+      "/images/products/new/10-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -153,7 +214,13 @@ export interface Product {
     reviews: 54,
     category: "Jackets",
     gender: "Women",
-    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/11-front.jpg",
+    images: [
+      "/images/products/new/11-front.jpg",
+      "/images/products/new/11-back.jpg",
+      "/images/products/new/11-side.jpg",
+      "/images/products/new/11-detail.jpg",
+    ],
     isNew: true,
   },
   {
@@ -166,7 +233,13 @@ export interface Product {
     reviews: 267,
     category: "Accessories",
     gender: "Women",
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/new/12-front.jpg",
+    images: [
+      "/images/products/new/12-front.jpg",
+      "/images/products/new/12-back.jpg",
+      "/images/products/new/12-side.jpg",
+      "/images/products/new/12-detail.jpg",
+    ],
     isNew: true,
   },
 ];

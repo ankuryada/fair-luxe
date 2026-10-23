@@ -10,9 +10,11 @@ export interface MenProduct {
   isNew: boolean;
   featured: boolean;
   image: string;
-  images?: string[];
+  images: string[];
 }
-export const menProducts: MenProduct[] = [  {
+
+export const menProducts: MenProduct[] = [
+  {
     id: 301,
     name: "Oxford Button Shirt",
     category: "Shirts",
@@ -23,7 +25,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: true,
     featured: true,
-    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/301-front.jpg",
+    images: [
+      "/images/products/men/301-front.jpg",
+      "/images/products/men/301-back.jpg",
+      "/images/products/men/301-side.jpg",
+      "/images/products/men/301-detail.jpg",
+    ],
   },
   {
     id: 302,
@@ -36,7 +44,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: false,
     featured: true,
-    image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/302-front.jpg",
+    images: [
+      "/images/products/men/302-front.jpg",
+      "/images/products/men/302-back.jpg",
+      "/images/products/men/302-side.jpg",
+      "/images/products/men/302-detail.jpg",
+    ],
   },
   {
     id: 303,
@@ -49,7 +63,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["XS", "S", "M", "L", "XL"],
     isNew: false,
     featured: true,
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/303-front.jpg",
+    images: [
+      "/images/products/men/303-front.jpg",
+      "/images/products/men/303-back.jpg",
+      "/images/products/men/303-side.jpg",
+      "/images/products/men/303-detail.jpg",
+    ],
   },
   {
     id: 304,
@@ -62,7 +82,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: true,
     featured: false,
-    image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/304-front.jpg",
+    images: [
+      "/images/products/men/304-front.jpg",
+      "/images/products/men/304-back.jpg",
+      "/images/products/men/304-side.jpg",
+      "/images/products/men/304-detail.jpg",
+    ],
   },
   {
     id: 305,
@@ -75,7 +101,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: false,
     featured: true,
-    image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/305-front.jpg",
+    images: [
+      "/images/products/men/305-front.jpg",
+      "/images/products/men/305-back.jpg",
+      "/images/products/men/305-side.jpg",
+      "/images/products/men/305-detail.jpg",
+    ],
   },
   {
     id: 306,
@@ -88,7 +120,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: true,
     featured: true,
-    image: "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/306-front.jpg",
+    images: [
+      "/images/products/men/306-front.jpg",
+      "/images/products/men/306-back.jpg",
+      "/images/products/men/306-side.jpg",
+      "/images/products/men/306-detail.jpg",
+    ],
   },
   {
     id: 307,
@@ -101,7 +139,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: false,
     featured: true,
-    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/307-front.jpg",
+    images: [
+      "/images/products/men/307-front.jpg",
+      "/images/products/men/307-back.jpg",
+      "/images/products/men/307-side.jpg",
+      "/images/products/men/307-detail.jpg",
+    ],
   },
   {
     id: 308,
@@ -114,7 +158,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: true,
     featured: false,
-    image: "https://images.unsplash.com/photo-1475178626620-a4d074967452?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/308-front.jpg",
+    images: [
+      "/images/products/men/308-front.jpg",
+      "/images/products/men/308-back.jpg",
+      "/images/products/men/308-side.jpg",
+      "/images/products/men/308-detail.jpg",
+    ],
   },
   {
     id: 309,
@@ -127,7 +177,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: true,
     featured: true,
-    image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/309-front.jpg",
+    images: [
+      "/images/products/men/309-front.jpg",
+      "/images/products/men/309-back.jpg",
+      "/images/products/men/309-side.jpg",
+      "/images/products/men/309-detail.jpg",
+    ],
   },
   {
     id: 310,
@@ -140,7 +196,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: false,
     featured: true,
-    image: "https://images.unsplash.com/photo-1544923246-77307dd654cb?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/310-front.jpg",
+    images: [
+      "/images/products/men/310-front.jpg",
+      "/images/products/men/310-back.jpg",
+      "/images/products/men/310-side.jpg",
+      "/images/products/men/310-detail.jpg",
+    ],
   },
   {
     id: 311,
@@ -153,7 +215,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: true,
     featured: true,
-    image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/311-front.jpg",
+    images: [
+      "/images/products/men/311-front.jpg",
+      "/images/products/men/311-back.jpg",
+      "/images/products/men/311-side.jpg",
+      "/images/products/men/311-detail.jpg",
+    ],
   },
   {
     id: 312,
@@ -166,7 +234,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: false,
     featured: false,
-    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/312-front.jpg",
+    images: [
+      "/images/products/men/312-front.jpg",
+      "/images/products/men/312-back.jpg",
+      "/images/products/men/312-side.jpg",
+      "/images/products/men/312-detail.jpg",
+    ],
   },
   {
     id: 313,
@@ -179,7 +253,13 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: true,
     featured: true,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    image: "/images/products/men/313-front.jpg",
+    images: [
+      "/images/products/men/313-front.jpg",
+      "/images/products/men/313-back.jpg",
+      "/images/products/men/313-side.jpg",
+      "/images/products/men/313-detail.jpg",
+    ],
   },
   {
     id: 314,
@@ -192,6 +272,12 @@ export const menProducts: MenProduct[] = [  {
     sizes: ["S", "M", "L", "XL"],
     isNew: false,
     featured: true,
-    image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=600&q=80",
-  },
+    image: "/images/products/men/314-front.jpg",
+    images: [
+      "/images/products/men/314-front.jpg",
+      "/images/products/men/314-back.jpg",
+      "/images/products/men/314-side.jpg",
+      "/images/products/men/314-detail.jpg",
+    ],
+  }
 ];
